@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="form">
+        <div class="form-block">оставте ваши контакты</div>
+        <label>
+        <p class="form__title">Имя:</p>
+        <input type="text" name="name" placeholder="Введите имя" required>
+        </label>
+        <label>
+            <p class="form__title">Телефон:</p>
+            <input type="tel" name="phone" required>
+        </label>
+        <label>
+            <p class="form__title">Почта:</p>
+            <input type="email" name="email" placeholder="Введите почту" required>
+        </label>
+        
+        <div class="form__test">
+            <p class="form__title">Любимые цвета</p>
+            <label>
+                <input type="checkbox" name="color" value="red"><span>красный</span>
+            </label>
+            <label>
+                <input type="checkbox" name="color" value="green"><span>зелёный</span>
+            </label>
+            <label>
+                <input type="checkbox" name="color" value="yellow"><span>желтый</span>
+            </label>
+            <label>
+                <input type="checkbox" name="color" value="blue"><span>синий</span>
+            </label>
+        </div>
+        <div class="form__city">
+            <p>Ваш город:</p>
+            <select name="city">
+                <option value="tyumen">Тюмень</option>
+                <option value="moskow">Москва</option>
+                <option value="saint-petersburg">Санкт-Петербург</option>
+            </select>
+        </div>
+        <button type="submit" class="form__btn">Отправить данные</button>
+    </form>
+</body>
+</html>

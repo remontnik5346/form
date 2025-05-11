@@ -1,0 +1,31 @@
+*{
+font-family: "Sawarabi Gothic",sans-serif;
+}
+.form {
+max-width: 500px;
+box-shadow: rgb(177, 177, 177) 5px 6px 40px;
+border-radius: 10px;
+
+}
+
+.form-block {
+    color: #ffffff;
+    background-color: rgb(53, 53, 255);
+    padding: 47px 66px 47px 33px;
+    text-align: center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+}
+
+.form__title {
+}
+
+.form__test {
+}
+
+.form__city {}
+
+.form__btn {
+    margin-bottom: 20px;
+}
